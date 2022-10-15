@@ -34,7 +34,8 @@ const (
 	DefaultPacketDropsChannelBufferSize = 100
 
 	PacketDropLogTimeLayout        = "PACKET_DROP_LOG_TIME_LAYOUT"
-	DefaultPacketDropLogTimeLayout = "2006-01-02T15:04:05.000000-07:00"
+	DefaultPacketDropLogTimeLayout = "Jan _2 15:04:05"
+        // 2006-01-02T15:04:05.000000-07:00"
 
 	PacketDropExpirationMinutes        = "PACKET_DROP_EXPIRATION_MINUTES"
 	DefaultPacketDropExpirationMinutes = 10
