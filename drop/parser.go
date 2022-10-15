@@ -123,7 +123,7 @@ func getPacketDrop(packetDropLog, logTimeLayout string) (PacketDrop, error) {
 
 	// get log time and host name
 
-	logTime, err := time.Parse(logTimeLayout, strings.Join(logFields[0:2], " "))
+	logTime, err := time.Parse(logTimeLayout, strings.Join(logFields[0:3], " "))
 	if err != nil {
 		return PacketDrop{}, err
 	}
